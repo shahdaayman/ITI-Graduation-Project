@@ -1,0 +1,29 @@
+@import url("../variables.css");
+.view-all-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.btn-view {
+  width: 234px;
+  height: 56px;
+  color: var(--text_white);
+  background-color: var(--secondary2_color);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-view:hover {
+  background-color: black; 
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--grey);
+}

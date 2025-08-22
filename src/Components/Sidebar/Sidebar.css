@@ -1,0 +1,24 @@
+@import url("../variables.css");
+.body-sidebar{
+  width: 200px;
+  border-right: 1px solid var(--black_opacity_low);
+}
+
+.body-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.body-sidebar .i1 {
+  padding-left: 20px;
+}
+
+.body-sidebar .i2 {
+  padding-left: 47px;
+}
+
+.body-sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+}

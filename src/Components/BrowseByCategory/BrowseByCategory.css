@@ -1,0 +1,39 @@
+@import url("../variables.css");
+.carts-nav12{
+  margin-top: 20px;
+}
+
+.carts-nav12 .Today {
+  font-size: 16px;
+  border-left: 20px solid var(--secondary2_color);
+  border-radius: 5px;
+  padding-left: 16px;
+}
+
+.flash-sales {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+
+.title span {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.category-arrows {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.arrow {
+  background-color: var(--grey);
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  cursor: pointer;
+} 

@@ -1,0 +1,19 @@
+:root{
+   --white_Primary: #FFFFFF;
+   --black_Primary:#363738;
+   --secondary_color:#F5F5F5;
+   --secondary1_color:#FEFAF1;
+   --secondary2_color:#DB4444;
+   --background_color:#FFFFFF;
+   --text_white:#FAFAFA;
+   --text_grey:#7D8184;
+   --text_black:#000000;
+   --button_black:#000000;
+   --button_green:#00FF66;
+   --button_red:#DB4444;
+   --button_red_hover:#E07575;
+   --button_blue_hover:#A0BCE0;
+   --black_opacity_low:rgba(0, 0, 0,0.25);
+   --grey: #ccc;
+   --orange:#FFAD33;
+}

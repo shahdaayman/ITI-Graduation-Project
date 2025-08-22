@@ -1,0 +1,25 @@
+.body-container-home {
+  width: 90%;
+  margin: auto;
+  max-width: 1350px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; 
+}
+
+.top-row {
+  display: flex;
+  gap: 20px;
+}
+
+.top-row > *:first-child {
+  flex: 1; 
+}
+
+.top-row > *:last-child {
+  flex: 3; 
+}
+
+.flash-row {
+  width: 100%;
+}

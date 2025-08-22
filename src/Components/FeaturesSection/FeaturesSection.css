@@ -1,0 +1,54 @@
+@import url("../variables.css");
+ .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    position: relative;
+}
+
+.icon-circle::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 76px;
+    height: 76px;
+    background: #ccc;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.icon-circle i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.feature-item h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.feature-item p {
+    font-size: 13px;
+    color: #555;
+}

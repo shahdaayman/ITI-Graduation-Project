@@ -1,0 +1,65 @@
+@import url("../variables.css");
+.banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--button_black);
+        color: white;
+        padding: 40px;
+        border-radius: 5px;
+        max-width: 1000px;
+        margin: 40px auto;
+    }
+    .banner-text {
+        max-width: 50%;
+    }
+    .category3 {
+        color: var(--button_green);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .banner-text h1 {
+        font-size: 48px;
+        margin: 10px 0 20px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    .countdown {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+        font-size: 11px;
+        margin-left: -3%;
+    }
+    .countdown-item {
+        background: var(--background_color);
+        color: var(--text_black);
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    .countdown-item span {
+        font-weight: normal;
+    }
+    .buy-btn {
+        background: var(--button_green);
+        color: var(--text_white);
+        border: none;
+        padding: 12px 30px;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .buy-btn:hover {
+        background: var(--button_green);
+    }
+    .banner img {
+        max-width: 45%;
+    }

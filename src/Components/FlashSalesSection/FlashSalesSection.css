@@ -1,0 +1,68 @@
+@import url("../variables.css");
+
+.flashsales-container {
+  margin-top: 20px;
+}
+
+.carts-nav .Today {
+  font-size: 16px;
+  border-left: 20px solid var(--secondary2_color);
+  border-radius: 5px;
+  padding-left: 16px;
+}
+
+.flash-sales {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title span {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.countdown1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 87px;
+}
+
+.time-box {
+  text-align: center;
+}
+
+.label {
+  font-size: 12px;
+  display: block;
+  color: var(--text_black);
+  font-weight: 500;
+}
+
+.number {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.col {
+  font-size: 18px;
+  color: var(--secondary2_color);
+  margin: 0 5px;
+}
+
+.arrows {
+  margin-left: auto; 
+  display: flex;
+  gap: 8px;
+}
+
+.arrow {
+  background-color: var(--grey);
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  cursor: pointer;
+}

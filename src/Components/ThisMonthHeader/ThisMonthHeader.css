@@ -1,0 +1,10 @@
+@import url("../variables.css");
+.category-arrows .view-all{
+        width: 159px;
+        height: 56px;color: var(--text_white);
+        background-color: var(--button_red);
+        font-size: 16px;
+        color: var(--text_white);
+        border: none;
+        border-radius: 10px;
+    }
